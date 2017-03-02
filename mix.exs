@@ -53,7 +53,7 @@ defmodule Elixometer.Mixfile do
       #lager 3.2.1 is needed for erl19 because of
       # https://github.com/basho/lager/pull/321
       {:lager, ">= 3.2.1", override: true},
-      {:exometer_core, github: "Feuerlabs/exometer_core", tag: "1.4"},
+      {:exometer, github: "Feuerlabs/exometer", tag: "1.4"},
       {:credo, "~> 0.5", only: [:dev, :test]},
       {:ex_doc, "~> 0.14", only: :dev},
       {:excoveralls, "~> 0.6", only: [:dev, :test]},
